@@ -1,0 +1,21 @@
+@media only screen and (max-width: 960px){
+  .navbar {
+    margin-top: 0;
+  }
+
+  .banner {
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+
+  .header {
+    height: 22rem;
+  }
+
+  .heading h1 {
+    font-size: 1.33rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+}
+
+
+}

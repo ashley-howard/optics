@@ -18,7 +18,7 @@ body {
   margin-top: 1rem;
 }
 
-.navbar .container {
+.navbar .container, .mobile-navbar .container {
   display: flex;
   justify-content: space-between;
   background-color: cadetblue;
@@ -40,13 +40,17 @@ body {
   margin-left: 1rem;
 }
 
-.navbar .links {
+.navbar .links, .mobile-navbar .links {
   margin-right: 2rem;
   padding: 1rem 0;
 }
 
-.navbar .links span {
+.navbar .links span, .mobile-navbar .links span {
   padding-left: 2rem;
+}
+
+.mobile-navbar {
+  display: none;
 }
 
 /*-- Header & Banner --*/
